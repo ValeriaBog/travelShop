@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "lib": ["es6", "DOM"],
+        "module": "commonjs",
+        "outDir": "./build",
+        "watch": true,
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "experimentalDecorators": true
+    },
+    
+     "files": ["app/classes/classes.ts", "app/models/interfaces.ts", "app/services/modal/modalService.ts" ],
+     "extends": "@tsconfig/node16/tsconfig.json",
+     "compileOnSave": true,
+     "exclude": ["src/**/*"]      
+    
+   
+    }
